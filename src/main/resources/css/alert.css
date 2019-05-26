@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Arial Narrow';
+}
+
+@font-face {
+    font-family: 'Arial Narrow';
+}
+
+.root {
+    -fx-background-color: #1435FA;
+}
+
+.dialog-pane {
+    -fx-background-color: #A1F7C7;
+}
+
+/* Content area */
+.dialog-pane > .content {
+    -fx-background-color: #bbbbbb;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: 700;
+}
+
+.dialog-pane > .content.label {
+    -fx-font-family: 'Fira Sans';
+}
+
+/* Header area */
+.dialog-pane .header-panel {
+    -fx-background-color: transparent;
+    -fx-border-width: 0 0 1px 0;
+    -fx-border-color: #09e2a7;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: 700;
+}
+
+
+.dialog-pane .header-panel .label {
+    -fx-font-family: 'Fira Sans';
+}
+
+/* Button style */
+.dialog-pane .button {
+    -fx-text-fill: black;
+    -fx-font-family: 'Fira Sans';
+
+    -fx-background-color: transparent;
+    -fx-border-color: #4d86f1;
+    -fx-border-radius: 2px;
+    -fx-border-width: 1px;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: 700;
+}
+
+.dialog-pane .button:hover {
+    -fx-background-color: #ffffff;
+    -fx-border-width: 1px;
+    -fx-border-radius: 2px;
+    -fx-border-color: #4d86f1;
+    -fx-text-fill: #09e2a7;
+}
+
+.dialog-pane .button:pressed {
+    -fx-background-color: #4d86f1;
+    -fx-text-fill: #000000;
+}
+
+/* Custom graphics */
+/*.custom-confirmation-graphic,
+.custom-error-graphic,
+.custom-information-graphic,
+.custom-warning-graphic {
+    -fx-font-family: 'FontAwesome';
+    -fx-font-size: 36pt;
+}*/
+
+.custom-confirmation-graphic {
+    -fx-text-fill: forestgreen;
+}
+
+.custom-error-graphic {
+    -fx-text-fill: #d7423c;
+}
+
+.custom-information-graphic {
+    -fx-text-fill: royalblue;
+}
+
+.custom-warning-graphic {
+    -fx-text-fill: gold;
+}

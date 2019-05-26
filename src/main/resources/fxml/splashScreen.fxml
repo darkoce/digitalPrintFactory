@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+
+
+<BorderPane fx:id="borderPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="662.0" prefWidth="930.0" stylesheets="@/css/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <ImageView fx:id="image" fitHeight="669.0" fitWidth="943.0" pickOnBounds="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@../images/digitalPrintFactory.PNG" />
+         </image>
+      </ImageView>
+   </center>
+</BorderPane>

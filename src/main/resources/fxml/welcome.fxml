@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:controller="com.zepp.dekel.digitalPrintFactory.controllers.WelcomeController" prefHeight="668.0" prefWidth="969.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="image" fitHeight="668.0" fitWidth="975.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/digitalPrintFactory.PNG" />
+         </image>
+      </ImageView>
+      <ProgressIndicator layoutX="462.0" layoutY="308.0" />
+   </children>
+</AnchorPane>
